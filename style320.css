@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'TT Lakes';
-    src: url('New Folder/TTLakesCompressed-Italic.woff') format("woff");
+    src: url('New Folder/TTLakesCompressed-Italic.woff')  format("woff");
     font-weight: normal;
     font-style: italic;
 }
@@ -43,7 +43,10 @@ body {
     overflow: hidden;
 
   }
-
+  h1{
+    font-family: 'TT Lakes', sans-serif;
+    font: 28px;
+  }
   
 .page-header{
   background: #ffffff;
@@ -66,6 +69,42 @@ p{ margin-left: 20px;
   margin-right: 20px;
   
 }
+.img-repair{
+  background: url(img/Grouprep.svg);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-profile{
+  background: url(img/profile.svg);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-chat{
+  background: url(img/icon-chat.svg);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-call{
+background: url(img/icon-call.svg);
+margin: auto;
+background-position: center;
+background-repeat: no-repeat;
+}
+.img-burger{
+  background: url(img/icon-call.svg);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .img-search{
+    background: url(img/icon-searcg.svg);
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  } 
 
 .page{
     width:320px;
@@ -81,6 +120,8 @@ p{ margin-left: 20px;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 15px;
+    background-color: #FF3E79;
+    border-radius: 20px;
 }
 .clik-2{
   margin-top: auto;
@@ -89,6 +130,7 @@ p{ margin-left: 20px;
   width:97px;
 
   margin-right: 15px;
+
 }
 .clik-2-1{
   width:40px;
@@ -98,6 +140,8 @@ p{ margin-left: 20px;
   margin-bottom: auto;
   margin-right: 20px;
   margin-left: auto;
+  background-color: #FF3E79;
+  border-radius: 20px;
 }
 .clik-2-2{
   width:40px;
@@ -106,6 +150,8 @@ p{ margin-left: 20px;
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 20px;
+  background-color: #FF3E79;
+  border-radius: 20px;
 }
 .clik-2-3{
   width:40px;
@@ -114,6 +160,8 @@ p{ margin-left: 20px;
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 20px;
+  background-color: #FF3E79;
+  border-radius: 20px;
 }
 .clik-2-5{
   width:2px;
@@ -128,12 +176,16 @@ p{ margin-left: 20px;
   width:40px;
   height:40px;
   margin-right: 10px;
+  background-color: #FF3E79;
+  border-radius: 20px;
 }
 .clik-4{
     margin-top: auto;
     margin-bottom: auto;
     width:40px;
     height:40px;
+    background-color: #FF3E79;
+    border-radius: 20px;
 }
 .page-main{
   padding-top: 20px;
@@ -223,6 +275,7 @@ p{ margin-left: 20px;
 .menuWrapper {
     /* Спрячем всё, что выходит за границы родителя */
     overflow: hidden;
+    height: 48px;
   }
     
 .name-ofer{
@@ -233,15 +286,21 @@ p{ margin-left: 20px;
     height:40px;
 }
 .name-1{
-    height:4px;
-    margin-right: 10px;
-}
+  width: 4px;
+  height:40px;
+  margin-right: 10px;
+  border-radius: 0px 20px 20px 0;
+  background: #41F6D7;
+
+  }
+  
 .name-2{
     font-family: 'TT Lakes', sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 28px;
+    font-size: 32px;
     margin-right: 10px;
+    margin-top: auto;
 }
 .page-footer{
     
@@ -260,7 +319,19 @@ p{ margin-left: 20px;
   width: 24px;
   height: 24px;
   float : left;
+  background: #7E7E82;
+}
+.img-icon2{
+  background: url(img/icon2.svg);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .read_more_unit2{
   float : left;
+}
+.resize{
+  width: 320px;
+
+
 }
