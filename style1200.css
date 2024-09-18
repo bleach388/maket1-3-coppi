@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'TT Lakes';
-    src: url('New Folder/TTLakesCompressed-Italic.woff') format("woff");
-    font-weight: normal;
-    font-style: italic;
+  font-family: 'TT Lakes';
+  src: url('New Folder/TTLakesCompressed-Italic.woff') format("woff");
+  font-weight: normal;
+  font-style: italic;
 
 }
 @media screen and (min-width:320px) {
@@ -29,6 +29,10 @@ main{
   
   
   }
+h1{
+  font-family: 'TT Lakes', sans-serif;
+  font: 28px;
+}
 ul{
       margin:0;
       }
@@ -36,6 +40,37 @@ li {
           list-style-type: none;
      
         }
+button{
+  display: flex;
+  justify-content:center;
+   background: none;
+   cursor:pointer;
+ 
+        }
+.full-but{
+  font-family: 'TT Lakes', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font: 16px;
+  color: #000000;
+  border-radius: 20px;
+  font-weight: 450;
+  height: 40px;
+  border: 0;
+  padding: 0;
+}  
+.img-repair{
+  background: url(img/Grouprep.svg);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-search{
+  background: url(img/icon-searcg.svg);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}       
 p{ margin-left: 20px;
    margin-right: 20px;
   margin-top: 10px;
@@ -128,6 +163,10 @@ p{ margin-left: 20px;
     width:1096px;
     height:40px;
 }
+.foter-but{
+  display: flex;
+    justify-content:center;
+}
 .check_but{
      width:170px;
     height:40px;
@@ -151,10 +190,11 @@ p{ margin-left: 20px;
 
 .check_but_unit1{
 
-
+  background-color: #FF3E79;
   width:40px;
   height:40px;
   margin-right: 10px;
+  border-radius: 20px;
 
 
 
@@ -164,8 +204,12 @@ p{ margin-left: 20px;
 
 }
 .name-1{
-    height:4px;
-    margin-right: 10px;
+  width: 4px;
+  height:40px;
+  margin-right: 10px;
+  border-radius: 0px 20px 20px 0;
+  background: #41F6D7;
+
   }
   
 .name-2{
@@ -174,6 +218,7 @@ p{ margin-left: 20px;
     font-style: normal;
     font-size: 32px;
     margin-right: 10px;
+    margin-top: auto;
 }
 .menuWrapper{
   margin-top: 20px;
@@ -250,7 +295,7 @@ p{ margin-left: 20px;
   }
   
 
-.page-footer{
+article{
   margin-left: 10px;
   display: grid;
   grid-template-areas: "f b b b"
@@ -284,6 +329,13 @@ p{ margin-left: 20px;
   width: 24px;
   height: 24px;
   float : left;
+  background: #F8F8F8;
+}
+.img-icon2{
+  background: url(img/icon2.svg);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .read_more_unit2{
   float : left;
